@@ -125,36 +125,49 @@
       "tier": "A",
       "penetration_rate": "5%",
       "key_trigger": "6G商用牌照发放",
-      "notes": "光纤光缆+光模块，6G核心受益标的，年初至今暴涨近3倍",
-      "signals": [],
-      "last_review": null,
-      "score": 0
+      "notes": "光纤光缆+光模块双受益，但⚠️年初至今已涨近3倍，5G时期光纤股弹性不如PCB/射频，需等回调或新催化剂",
+      "signals": [
+        "机构调研密度增加",
+        "新产品/新市场突破",
+        "产能利用率>90%且扩产"
+      ],
+      "last_review": "2026-06-08",
+      "score": 11
     },
     {
       "id": "11",
       "name": "创远信科",
       "code": "920961",
       "sector": "6G/通信",
-      "tier": "A",
+      "tier": "S",
       "penetration_rate": "2%",
       "key_trigger": "6G测试订单落地",
-      "notes": "已加入IMT-2030(6G)推进组，今年净利预计暴增6.4倍",
-      "signals": [],
-      "last_review": null,
-      "score": 0
+      "notes": "类比5G沪电股份——6G第一个瓶颈环节(太赫兹测试仪器)，已加入IMT-2030推进组，净利+640%，赛道独一无二",
+      "signals": [
+        "渗透率突破关键值",
+        "超预期(财报关键词)",
+        "技术突破/专利获批",
+        "新产品/新市场突破"
+      ],
+      "last_review": "2026-06-08",
+      "score": 15
     },
     {
       "id": "12",
       "name": "中兴通讯",
       "code": "000063",
       "sector": "6G/通信",
-      "tier": "A",
+      "tier": "S",
       "penetration_rate": "10%",
       "key_trigger": "6G标准制定话语权",
-      "notes": "5G/6G基站设备龙头，深度参与标准制定",
-      "signals": [],
-      "last_review": null,
-      "score": 0
+      "notes": "5G/6G基站设备龙头，深度参与标准制定，近一周融资净买超4亿",
+      "signals": [
+        "机构调研密度增加",
+        "产能利用率>90%且扩产",
+        "技术突破/专利获批"
+      ],
+      "last_review": "2026-06-08",
+      "score": 10
     },
     {
       "id": "13",
@@ -194,7 +207,351 @@
       "signals": [],
       "last_review": null,
       "score": 0
+    },
+    {
+      "id": "16",
+      "name": "东方电缆",
+      "code": "603606",
+      "sector": "海上风电",
+      "tier": "S",
+      "penetration_rate": "10%",
+      "key_trigger": "深远海柔直海缆订单爆发",
+      "notes": "海缆龙头，深远海必须用高压直流海缆，海风之心标志性突破直接受益",
+      "signals": [
+        "供不应求(财报关键词)",
+        "技术突破/专利获批"
+      ],
+      "last_review": "2026-06-07",
+      "score": 7
+    },
+    {
+      "id": "17",
+      "name": "大金重工",
+      "code": "002487",
+      "sector": "海上风电",
+      "tier": "A",
+      "penetration_rate": "8%",
+      "key_trigger": "漂浮式基础批量交付",
+      "notes": "海上风电塔筒/基础龙头，漂浮式风电必须用大尺寸钢结构基础",
+      "signals": [
+        "新产品/新市场突破"
+      ],
+      "last_review": "2026-06-07",
+      "score": 4
+    },
+    {
+      "id": "18",
+      "name": "明阳智能",
+      "code": "601615",
+      "sector": "海上风电",
+      "tier": "A",
+      "penetration_rate": "12%",
+      "key_trigger": "16MW+大容量风机商用",
+      "notes": "大容量海上风机龙头，漂浮式平台核心供应商，十五五100GW直接受益",
+      "signals": [
+        "产能利用率>90%且扩产"
+      ],
+      "last_review": "2026-06-07",
+      "score": 5
+    },
+    {
+      "id": "19",
+      "name": "中天科技",
+      "code": "600522",
+      "sector": "海上风电",
+      "tier": "A",
+      "penetration_rate": "10%",
+      "key_trigger": "柔直海缆中标大单",
+      "notes": "海缆+光纤双主业，6G光通信+海上风电双重受益，海缆市占率仅次于东方电缆",
+      "signals": [],
+      "last_review": "2026-06-07",
+      "score": 0
+    },
+    {
+      "id": "20",
+      "name": "亚星锚链",
+      "code": "601890",
+      "sector": "海上风电",
+      "tier": "B",
+      "penetration_rate": "5%",
+      "key_trigger": "漂浮式系泊链国产替代放量",
+      "notes": "系泊链全球龙头，国产特种聚酯纤维系泊缆突破，漂浮式风电必备",
+      "signals": [
+        "技术突破/专利获批"
+      ],
+      "last_review": "2026-06-07",
+      "score": 3
+    },
+    {
+      "id": "21",
+      "name": "百济神州",
+      "code": "688235",
+      "sector": "创新药出海",
+      "tier": "S",
+      "penetration_rate": "5%",
+      "key_trigger": "泽布替尼海外销售突破50亿美元",
+      "notes": "创新药出海标杆，BTK抑制剂全球放量，License-out模式已验证。⚠️短期压制：美联储加息预期+美伊冲突避险+AI抽血效应。但BioBay前5月出海交易266亿美元(+500%)验证产业景气",
+      "signals": [
+        "海外收入占比>30%",
+        "新产品/新市场突破"
+      ],
+      "last_review": "2026-06-07",
+      "score": 7
+    },
+    {
+      "id": "22",
+      "name": "药明康德",
+      "code": "603259",
+      "sector": "创新药出海",
+      "tier": "A",
+      "penetration_rate": "30%",
+      "key_trigger": "海外CXO需求周期反转",
+      "notes": "CXO一体化龙头，服务全球创新药企出海。⚠️短期利空：①后新冠CXO产能去泡沫 ②美国生物安全法案悬而未决 ③加息周期估值压缩。但BioBay数据印证行业需求真实存在，等订单回暖信号",
+      "signals": [],
+      "last_review": "2026-06-07",
+      "score": 0
+    },
+    {
+      "id": "23",
+      "name": "恒瑞医药",
+      "code": "600276",
+      "sector": "创新药出海",
+      "tier": "A",
+      "penetration_rate": "15%",
+      "key_trigger": "创新药海外获批上市",
+      "notes": "创新药龙头转型成功，License-out持续落地。BioBay前5月交易266亿美元(+500%)验证出海景气，管线多个海外临床推进中",
+      "signals": [
+        "新产品/新市场突破",
+        "海外收入占比>30%"
+      ],
+      "last_review": "2026-06-07",
+      "score": 7
+    },
+    {
+      "id": "24",
+      "name": "康龙化成",
+      "code": "300759",
+      "sector": "创新药出海",
+      "tier": "B",
+      "penetration_rate": "25%",
+      "key_trigger": "海外产能利用率突破80%",
+      "notes": "CXO全产业链，海外实验室布局完善。⚠️短期同药明康德面临CXO去泡沫+法案+加息三重压力，需等待产能利用率见底回升信号",
+      "signals": [],
+      "last_review": "2026-06-07",
+      "score": 0
+    },
+    {
+      "id": "25",
+      "name": "信达生物",
+      "code": "1801.HK",
+      "sector": "创新药出海",
+      "tier": "S",
+      "penetration_rate": "8%",
+      "key_trigger": "PD-1海外获批+ADC管线BD突破",
+      "notes": "港股创新药标杆，PD-1商业化已验证，ADC+双抗管线性感，海外合作推进中",
+      "signals": [
+        "海外收入占比>30%",
+        "新产品/新市场突破"
+      ],
+      "last_review": "2026-06-07",
+      "score": 7
+    },
+    {
+      "id": "26",
+      "name": "康方生物",
+      "code": "9926.HK",
+      "sector": "创新药出海",
+      "tier": "S",
+      "penetration_rate": "5%",
+      "key_trigger": "依沃西(PD-1/VEGF双抗)海外获批",
+      "notes": "双抗龙头，依沃西头对头击败K药创历史，全球BD潜力巨大，Summit合作已验证海外价值",
+      "signals": [
+        "技术突破/专利获批",
+        "新产品/新市场突破",
+        "大客户/大订单公告"
+      ],
+      "last_review": "2026-06-07",
+      "score": 11
+    },
+    {
+      "id": "27",
+      "name": "金斯瑞生物科技",
+      "code": "1548.HK",
+      "sector": "创新药出海",
+      "tier": "A",
+      "penetration_rate": "3%",
+      "key_trigger": "Carvykti销售突破50亿美元+传奇生物独立上市",
+      "notes": "CAR-T全球领先（子公司传奇生物），Carvykti美国放量中，CDMO业务稳定，生命科学服务为基本盘",
+      "signals": [
+        "海外收入占比>30%",
+        "新产品/新市场突破"
+      ],
+      "last_review": "2026-06-07",
+      "score": 7
+    },
+    {
+      "id": "28",
+      "name": "科伦博泰",
+      "code": "6990.HK",
+      "sector": "创新药出海",
+      "tier": "A",
+      "penetration_rate": "3%",
+      "key_trigger": "SKB264海外获批上市",
+      "notes": "ADC出海标杆，与默沙东达成超百亿美元合作，TROP2-ADC(SKB264)临床数据优异，海外商业化倒计时",
+      "signals": [
+        "大客户/大订单公告",
+        "海外收入占比>30%",
+        "新产品/新市场突破"
+      ],
+      "last_review": "2026-06-07",
+      "score": 11
+    },
+    {
+      "id": "29",
+      "name": "和黄医药",
+      "code": "0013.HK",
+      "sector": "创新药出海",
+      "tier": "A",
+      "penetration_rate": "5%",
+      "key_trigger": "呋喹替尼海外销售突破10亿美元",
+      "notes": "首个国产小分子创新药获FDA批准，呋喹替尼(FRUZAQLA)美国/欧洲/日本多地获批上市，武田合作全球销售",
+      "signals": [
+        "海外收入占比>30%",
+        "新产品/新市场突破"
+      ],
+      "last_review": "2026-06-07",
+      "score": 7
+    },
+    {
+      "id": "30",
+      "name": "再鼎医药",
+      "code": "9688.HK",
+      "sector": "创新药出海",
+      "tier": "B",
+      "penetration_rate": "5%",
+      "key_trigger": "多款引进品种销售额突破10亿人民币",
+      "notes": "License-in模式龙头，商业化能力已验证，引进品种持续放量，关注自研管线能否突破",
+      "signals": [],
+      "last_review": "2026-06-07",
+      "score": 0
+    },
+    {
+      "id": "31",
+      "name": "荣昌生物",
+      "code": "9995.HK",
+      "sector": "创新药出海",
+      "tier": "B",
+      "penetration_rate": "3%",
+      "key_trigger": "维迪西妥单抗海外获批",
+      "notes": "ADC先行者，维迪西妥单抗(RC48)已授权Seagen(辉瑞)，泰它西普自免领域潜力大，商业化爬坡中",
+      "signals": [
+        "大客户/大订单公告"
+      ],
+      "last_review": "2026-06-07",
+      "score": 4
+    },
+    {
+      "id": "32",
+      "name": "海格通信",
+      "code": "002465",
+      "sector": "6G/通信",
+      "tier": "S",
+      "penetration_rate": "5%",
+      "key_trigger": "北斗+卫星通信6G天地一体化订单落地",
+      "notes": "北斗导航+卫星通信龙头，6G天地一体化核心标的，今年净利有望翻倍",
+      "signals": [
+        "新产品/新市场突破",
+        "技术突破/专利获批",
+        "超预期(财报关键词)"
+      ],
+      "last_review": "2026-06-08",
+      "score": 10
+    },
+    {
+      "id": "33",
+      "name": "信科移动",
+      "code": "688387",
+      "sector": "6G/通信",
+      "tier": "A",
+      "penetration_rate": "3%",
+      "key_trigger": "6G技术试验中标+业绩扭亏",
+      "notes": "移动通信技术央企，6G标准制定参与者，今年净利有望翻倍",
+      "signals": [
+        "技术突破/专利获批",
+        "超预期(财报关键词)"
+      ],
+      "last_review": "2026-06-08",
+      "score": 6
+    },
+    {
+      "id": "34",
+      "name": "硕贝德",
+      "code": "300322",
+      "sector": "6G/通信",
+      "tier": "A",
+      "penetration_rate": "3%",
+      "key_trigger": "6G天线/卫星通信产品放量",
+      "notes": "终端天线+卫星通信产品线，融资净买超1亿，净利预增50%+",
+      "signals": [
+        "机构调研密度增加",
+        "新产品/新市场突破"
+      ],
+      "last_review": "2026-06-08",
+      "score": 6
+    },
+    {
+      "id": "35",
+      "name": "信维通信",
+      "code": "300136",
+      "sector": "6G/通信",
+      "tier": "A",
+      "penetration_rate": "5%",
+      "key_trigger": "6G射频器件进入主流设备商供应链",
+      "notes": "射频元器件龙头，6G频段升级直接受益，净利预增50%+",
+      "signals": [
+        "新产品/新市场突破"
+      ],
+      "last_review": "2026-06-08",
+      "score": 4
+    },
+    {
+      "id": "36",
+      "name": "东材科技",
+      "code": "601208",
+      "sector": "6G/通信",
+      "tier": "A",
+      "penetration_rate": "3%",
+      "key_trigger": "高频高速材料进入6G供应链",
+      "notes": "高频高速材料供应商，股价翻倍，融资净买超4亿，6G材料刚需",
+      "signals": [
+        "机构调研密度增加",
+        "产能利用率>90%且扩产",
+        "新产品/新市场突破"
+      ],
+      "last_review": "2026-06-08",
+      "score": 10
+    },
+    {
+      "id": "37",
+      "name": "通宇通讯",
+      "code": "002792",
+      "sector": "6G/通信",
+      "tier": "A",
+      "penetration_rate": "2%",
+      "key_trigger": "6G天线预研成果落地+卫星通信订单",
+      "notes": "6G天线预研先行者，卫星通信产品线布局，双概念叠加弹性大",
+      "signals": [
+        "技术突破/专利获批",
+        "新产品/新市场突破"
+      ],
+      "last_review": "2026-06-08",
+      "score": 7
     }
   ],
-  "last_updated": "2026-06-06"
+  "last_updated": "2026-06-08",
+  "market_state": {
+    "status": "unfavorable",
+    "reason": "伊朗再袭以色列+韩国暴跌8%+美联储加息预期升温+全球避险，成长股承压",
+    "updated": "2026-06-08"
+  }
 }

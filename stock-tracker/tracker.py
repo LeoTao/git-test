@@ -37,6 +37,8 @@ SECTOR_NAMES = {
     "机器人": "🦾 机器人",
     "基因治疗": "🧬 基因治疗",
     "商业航天": "🚀 商业航天",
+    "海上风电": "🌊 海上风电",
+    "创新药出海": "💊 创新药出海",
 }
 
 # 信号定义 + 权重
@@ -131,6 +133,43 @@ def get_recommendation(score, tier):
         return "⏳ 等待信号", "dim"
 
 
+def get_market_state():
+    """获取当前宏观环境状态"""
+    data = load_watchlist()
+    return data.get("market_state", {"status": "neutral", "reason": "未设置", "updated": "未知"})
+
+
+def save_market_state(status, reason):
+    """保存宏观环境状态"""
+    data = load_watchlist()
+    data["market_state"] = {
+        "status": status,
+        "reason": reason,
+        "updated": datetime.now().strftime("%Y-%m-%d"),
+    }
+    save_watchlist(data)
+
+
+def is_actionable(company, market_status):
+    """
+    判断一只股票是否处于"可入手"状态。
+    规则：
+      🟢 可入手：S级 + 得分≥12 + 宏观 favorable
+      🟡 接近  ：S级 + 得分≥12 + 宏观 neutral，或 A级 + 得分≥12 + 宏观 favorable
+      🔴 等待  ：其余
+    """
+    score = company.get("score", 0)
+    tier = company.get("tier", "B")
+
+    if tier == "S" and score >= 12 and market_status == "favorable":
+        return "🟢 可入手"
+    elif (tier == "S" and score >= 12 and market_status == "neutral") or \
+         (tier == "A" and score >= 12 and market_status == "favorable"):
+        return "🟡 接近"
+    else:
+        return "🔴 等待"
+
+
 def format_date(date_str):
     """格式化日期"""
     if not date_str:
@@ -212,8 +251,17 @@ def cmd_daily():
     print(f"   总计: {len(companies)} 只")
     print(f"   上次更新: {data.get('last_updated', '未知')}")
     print()
+
+    # 宏观状态
+    ms = data.get("market_state", {})
+    macro_emoji = {"favorable": "🟢", "neutral": "🟡", "unfavorable": "🔴"}
+    print(f"🌍 宏观环境: {macro_emoji.get(ms.get('status','neutral'), '⚪')} {ms.get('status', 'unknown')}")
+    print(f"   {ms.get('reason', '')}")
+
+    print()
     print("💡 运行 'python3 tracker.py review' 查看完整评估")
     print("💡 运行 'python3 tracker.py update' 录入新发现信号")
+    print("💡 运行 'python3 tracker.py macro' 更新宏观判断")
 
 
 # ============================================================
@@ -226,10 +274,19 @@ def cmd_review():
 
     data = load_watchlist()
     companies = data["companies"]
+    ms = data.get("market_state", {})
+    macro_status = ms.get("status", "neutral")
 
     # 更新得分
     for c in companies:
         c["score"] = calc_score(c)
+
+    # 宏观看板
+    macro_emoji = {"favorable": "🟢", "neutral": "🟡", "unfavorable": "🔴"}
+    print()
+    print(f"  🌍 宏观环境: {macro_emoji.get(macro_status, '⚪')} {macro_status.upper()}")
+    print(f"     {ms.get('reason', '')}")
+    print(f"     ⚠️  仅当宏观=favorable时，🟢可入手信号才会亮起")
 
     # 按得分排序
     ranked = sorted(companies, key=lambda c: c["score"], reverse=True)
@@ -239,20 +296,21 @@ def cmd_review():
     print("📊 按赛道分类评估：")
     print()
 
-    sectors_order = ["AI算力", "新能源", "新消费", "6G/通信", "半导体", "医疗器械"]
+    sectors_order = ["AI算力", "新能源", "新消费", "海上风电", "创新药出海", "6G/通信", "半导体", "医疗器械"]
     for sec in sectors_order:
         sec_companies = [c for c in ranked if c["sector"] == sec]
         if not sec_companies:
             continue
         display = SECTOR_NAMES.get(sec, sec)
         print(f"  {display}")
-        print(f"  {'名称':<10} {'代码':<10} {'等级':<6} {'得分':<6} {'信号数':<6} {'建议'}")
-        print(f"  {'-'*50}")
+        print(f"  {'名称':<10} {'代码':<10} {'等级':<6} {'得分':<6} {'信号':<4} {'建议':<20} {'入手?'}")
+        print(f"  {'-'*60}")
         for c in sec_companies:
             score = c["score"]
             signals_count = len(c.get("signals", []))
             rec, _ = get_recommendation(score, c["tier"])
-            print(f"  {c['name']:<10} {c['code']:<10} {c['tier']:<6} {score:<6} {signals_count:<6} {rec}")
+            action = is_actionable(c, macro_status)
+            print(f"  {c['name']:<10} {c['code']:<10} {c['tier']:<6} {score:<6} {signals_count:<4} {rec:<20} {action}")
         print()
 
     # 处理剩余赛道
@@ -263,13 +321,14 @@ def cmd_review():
         sec_companies = [c for c in ranked if c["sector"] == sec]
         display = SECTOR_NAMES.get(sec, sec)
         print(f"  {display}")
-        print(f"  {'名称':<10} {'代码':<10} {'等级':<6} {'得分':<6} {'信号数':<6} {'建议'}")
-        print(f"  {'-'*50}")
+        print(f"  {'名称':<10} {'代码':<10} {'等级':<6} {'得分':<6} {'信号':<4} {'建议':<20} {'入手?'}")
+        print(f"  {'-'*60}")
         for c in sec_companies:
             score = c["score"]
             signals_count = len(c.get("signals", []))
             rec, _ = get_recommendation(score, c["tier"])
-            print(f"  {c['name']:<10} {c['code']:<10} {c['tier']:<6} {score:<6} {signals_count:<6} {rec}")
+            action = is_actionable(c, macro_status)
+            print(f"  {c['name']:<10} {c['code']:<10} {c['tier']:<6} {score:<6} {signals_count:<4} {rec:<20} {action}")
         print()
 
     # TOP 推荐
@@ -281,7 +340,8 @@ def cmd_review():
         for i, c in enumerate(top_picks, 1):
             score = c["score"]
             sigs = c.get("signals", [])
-            print(f"  [{i}] {c['name']} ({c['code']}) | {c['sector']} | 得分: {score}")
+            action = is_actionable(c, macro_status)
+            print(f"  [{i}] {c['name']} ({c['code']}) | {c['sector']} | 得分: {score} | {action}")
             print(f"      等级: {c['tier']} | 渗透率: {c['penetration_rate']} | 关键拐点: {c['key_trigger']}")
             if sigs:
                 print(f"      已触发信号: {', '.join(sigs)}")
@@ -290,6 +350,34 @@ def cmd_review():
             print()
     else:
         print("  （暂无——快去录入信号吧！运行 python3 tracker.py update）")
+
+    # 可入手汇总
+    print_separator()
+    print("🎯 可入手判断（宏观 + 公司信号双层过滤）：")
+    print()
+    actionable_list = [c for c in ranked if is_actionable(c, macro_status) == "🟢 可入手"]
+    approaching_list = [c for c in ranked if is_actionable(c, macro_status) == "🟡 接近"]
+    if actionable_list:
+        print("  🟢 可入手：")
+        for c in actionable_list:
+            print(f"     {c['name']} ({c['code']}) | {c['sector']} | 得分: {c['score']}")
+    else:
+        print(f"  🟢 可入手：0 只（需同时满足：S级 + 得分≥12 + 宏观=favorable）")
+    print()
+    if approaching_list:
+        print("  🟡 接近（只差一个条件）：")
+        for c in approaching_list:
+            missing = []
+            if c["tier"] != "S" or c["score"] < 12:
+                missing.append("公司信号不够(S级+得分≥12)")
+            if macro_status != "favorable" and macro_status != "neutral":
+                missing.append("宏观=" + macro_status)
+            elif macro_status == "neutral" and c["tier"] == "A":
+                missing.append("等待宏观转favorable 或 升至S级")
+            print(f"     {c['name']} ({c['code']}) | 差: {', '.join(missing)}")
+    else:
+        print("  🟡 接近：0 只")
+    print(f"\n  💡 当前宏观={macro_status}，{'不适合入场' if macro_status == 'unfavorable' else '可选择性入场' if macro_status == 'favorable' else '谨慎入场'}")
 
     # 各赛道信号汇总
     print_separator()
@@ -673,6 +761,47 @@ def cmd_edit():
 
 
 # ============================================================
+# 宏观环境判断
+# ============================================================
+
+def cmd_macro():
+    """更新宏观环境状态"""
+    print_header("🌍 宏观环境判断")
+
+    ms = get_market_state()
+    macro_emoji = {"favorable": "🟢", "neutral": "🟡", "unfavorable": "🔴"}
+    print()
+    print(f"  当前状态: {macro_emoji.get(ms['status'], '⚪')} {ms['status']}")
+    print(f"  理由: {ms.get('reason', '无')}")
+    print(f"  更新时间: {ms.get('updated', '未知')}")
+    print()
+    print("  宏观状态说明：")
+    print("    🟢 favorable   — 流动性宽松 + 市场上升趋势 + 风险偏好正常")
+    print("    🟡 neutral     — 方向不明，谨慎参与")
+    print("    🔴 unfavorable — 加息/冲突/恐慌，不适合买成长股")
+    print()
+    print("  选择新状态：")
+    print("    [1] 🟢 favorable（适合入场）")
+    print("    [2] 🟡 neutral（方向不明）")
+    print("    [3] 🔴 unfavorable（不适合入场）")
+    print()
+
+    choice = input("  输入: ").strip()
+    status_map = {"1": "favorable", "2": "neutral", "3": "unfavorable"}
+    if choice not in status_map:
+        print("❌ 无效选择")
+        return
+
+    new_status = status_map[choice]
+    reason = input("  简要理由: ").strip()
+    save_market_state(new_status, reason)
+
+    print()
+    print(f"✅ 宏观状态已更新为: {macro_emoji.get(new_status, '⚪')} {new_status}")
+    print("💡 运行 'python3 tracker.py review' 查看最新的可入手判断")
+
+
+# ============================================================
 # 帮助
 # ============================================================
 
@@ -683,7 +812,8 @@ def cmd_help():
     print("""
 命令列表：
   python3 tracker.py daily      每日检查清单（推荐每天跑）
-  python3 tracker.py review     查看完整评估报告
+  python3 tracker.py review     查看完整评估报告（含可入手判断）
+  python3 tracker.py macro      更新宏观环境判断
   python3 tracker.py update     录入新发现的信号
   python3 tracker.py earnings   财报季关键词扫描
   python3 tracker.py add        添加新标的
@@ -692,9 +822,17 @@ def cmd_help():
 
 使用流程：
   1. 每天早上跑 daily，了解今天该关注什么
-  2. 发现信号后跑 update 录入
-  3. 每周/每月跑 review 查看整体评估
-  4. 财报季（1/4/7/10月）跑 earnings 扫描财报
+  2. 每周跑 macro，更新宏观判断（利率/冲突/市场情绪）
+  3. 发现信号后跑 update 录入
+  4. 每周/每月跑 review 查看"可入手"标的
+  5. 财报季（1/4/7/10月）跑 earnings 扫描财报
+
+可入手判断规则（双层过滤）：
+  🟢 可入手 = S级 + 得分≥12 + 宏观=favorable
+  🟡 接近   = S级+得分≥12+宏观=neutral，或 A级+得分≥12+宏观=favorable
+  🔴 等待   = 其余情况
+
+  宏观状态用 'python3 tracker.py macro' 手动判断并设置。
 
 信号评分体系：
   每个信号有不同权重（1-5分），得分越高表示越多正面信号叠加。
@@ -722,6 +860,7 @@ def main():
     commands = {
         "daily": cmd_daily,
         "review": cmd_review,
+        "macro": cmd_macro,
         "update": cmd_update,
         "earnings": cmd_earnings,
         "add": cmd_add,

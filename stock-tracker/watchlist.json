@@ -546,9 +546,24 @@
       ],
       "last_review": "2026-06-08",
       "score": 7
+    },
+    {
+      "id": "38",
+      "name": "心动公司",
+      "code": "02400.HK",
+      "sector": "新消费",
+      "tier": "A",
+      "penetration_rate": "8%",
+      "key_trigger": "TapTap MAU突破5000万或新游爆款上线",
+      "notes": "TapTap游戏平台+自研游戏双轮驱动，中国唯一零佣金手游分发平台，FY2025利润+94%，PE仅14x，4亿港元回购中",
+      "signals": [
+        "超预期(财报关键词)"
+      ],
+      "last_review": "2026-06-11",
+      "score": 8
     }
   ],
-  "last_updated": "2026-06-08",
+  "last_updated": "2026-06-11",
   "market_state": {
     "status": "unfavorable",
     "reason": "伊朗再袭以色列+韩国暴跌8%+美联储加息预期升温+全球避险，成长股承压",

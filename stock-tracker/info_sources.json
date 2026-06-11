@@ -1,0 +1,345 @@
+{
+  "_说明": "全球信息差监控源配置。按行业×类型组织，每源标注优先级(1-5)和监控方式。",
+  "_维护": "每月检查一次源有效性，删除失效源，添加新发现的好源。运行 discovery.py source list 查看当前状态。",
+
+  "sources": {
+    "行业贸易期刊": [
+      {
+        "id": "icis",
+        "name": "ICIS Chemical Business",
+        "url": "https://www.icis.com/",
+        "feed": "https://www.icis.com/rss/",
+        "sector": "化工/材料",
+        "priority": 5,
+        "why": "全球化工业供需、价格、产能中断最早报道者",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["shortage", "force majeure", "supply", "capacity", "price surge"]
+      },
+      {
+        "id": "platts",
+        "name": "S&P Global Platts",
+        "url": "https://www.spglobal.com/platts/",
+        "feed": "https://www.spglobal.com/platts/en/rss",
+        "sector": "能源/大宗",
+        "priority": 5,
+        "why": "能源、金属、农产品价格和供需分析全球权威",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["supply tight", "price rally", "deficit", "inventory", "demand surge"]
+      },
+      {
+        "id": "pv-magazine",
+        "name": "PV Magazine",
+        "url": "https://www.pv-magazine.com/",
+        "feed": "https://www.pv-magazine.com/feed/",
+        "sector": "新能源/光伏",
+        "priority": 5,
+        "why": "全球光伏行业最权威媒体，产能、价格、政策一手信息",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["polysilicon", "capacity expansion", "module price", "solar tariff", "supply chain"]
+      },
+      {
+        "id": "windpower-monthly",
+        "name": "Windpower Monthly",
+        "url": "https://www.windpowermonthly.com/",
+        "feed": "https://www.windpowermonthly.com/rss",
+        "sector": "新能源/风电",
+        "priority": 4,
+        "why": "全球风电行业权威，尤其海上风电项目进度",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["offshore wind", "turbine", "supply chain", "contract", "installation"]
+      },
+      {
+        "id": "fierce-medical",
+        "name": "FierceMedical / MedTech Dive",
+        "url": "https://www.fiercebiotech.com/medical-devices",
+        "feed": "https://www.fiercebiotech.com/medical-devices/rss",
+        "sector": "医疗器械",
+        "priority": 5,
+        "why": "FDA审批、医疗器械供应链、临床数据第一时间报道",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["FDA", "approval", "clearance", "shortage", "recall", "breakthrough"]
+      },
+      {
+        "id": "semiconductor-today",
+        "name": "Semiconductor Today / IEEE Spectrum",
+        "url": "https://spectrum.ieee.org/topic/semiconductors/",
+        "feed": "https://spectrum.ieee.org/feeds/topic/semiconductors.rss",
+        "sector": "半导体",
+        "priority": 5,
+        "why": "芯片技术路线、产能、良率、设备交期",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["fab", "capacity", "wafer", "lithography", "yield", "supply", "lead time"]
+      },
+      {
+        "id": "light-reading",
+        "name": "Light Reading / FierceWireless",
+        "url": "https://www.lightreading.com/",
+        "feed": "https://www.lightreading.com/rss",
+        "sector": "通信/6G",
+        "priority": 4,
+        "why": "通信标准、5G/6G部署、设备商动态",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["6G", "5G", "open ran", "spectrum", "deployment", "contract"]
+      },
+      {
+        "id": "freightwaves",
+        "name": "FreightWaves",
+        "url": "https://www.freightwaves.com/",
+        "feed": "https://www.freightwaves.com/rss",
+        "sector": "物流/供应链(全行业领先指标)",
+        "priority": 5,
+        "why": "运价、港口拥堵、供应链中断——全行业上游信号，比任何行业报告都快",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["congestion", "rate hike", "capacity crunch", "driver shortage", "port", "container"]
+      },
+      {
+        "id": "food-dive",
+        "name": "Food Dive / Modern Retail",
+        "url": "https://www.fooddive.com/",
+        "feed": "https://www.fooddive.com/feeds/news/",
+        "sector": "消费/食品",
+        "priority": 3,
+        "why": "食品饮料消费趋势、新品牌崛起、渠道变化",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["trending", "shortage", "supply", "price increase", "new brand", "expansion"]
+      },
+      {
+        "id": "robotics-business",
+        "name": "The Robot Report / Robotics Business Review",
+        "url": "https://www.therobotreport.com/",
+        "feed": "https://www.therobotreport.com/feed/",
+        "sector": "机器人/自动化",
+        "priority": 4,
+        "why": "机器人行业订单、技术突破、应用场景拓展",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["deployment", "order", "partnership", "breakthrough", "humanoid"]
+      }
+    ],
+
+    "英文财经深度": [
+      {
+        "id": "seeking-alpha",
+        "name": "Seeking Alpha",
+        "url": "https://seekingalpha.com/",
+        "sector": "全行业",
+        "priority": 4,
+        "why": "英文深度分析，通常比中文券商研报快2-4周",
+        "language": "en",
+        "monitor": "keyword_alert",
+        "keywords": ["supply shortage", "capacity constraint", "industry tailwind", "secular growth", "underfollowed"]
+      },
+      {
+        "id": "bloomberg",
+        "name": "Bloomberg (免费部分)",
+        "url": "https://www.bloomberg.com/",
+        "sector": "全行业",
+        "priority": 4,
+        "why": "虽然付费墙限制，但标题和摘要仍可获取关键信号",
+        "language": "en",
+        "monitor": "headline_scan",
+        "keywords": ["shortage", "squeeze", "rally", "surge", "disruption"]
+      },
+      {
+        "id": "reuters",
+        "name": "Reuters",
+        "url": "https://www.reuters.com/",
+        "sector": "全行业",
+        "priority": 4,
+        "why": "全球通讯社，覆盖面广，标题通常足够判断信号",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["supply", "shortage", "demand", "record", "breakthrough"]
+      },
+      {
+        "id": "wsj",
+        "name": "Wall Street Journal (标题扫描)",
+        "url": "https://www.wsj.com/",
+        "sector": "全行业",
+        "priority": 3,
+        "why": "虽然多数文章付费，但标题常透露关键信息",
+        "language": "en",
+        "monitor": "headline_scan",
+        "keywords": ["supply", "shortage", "boom", "bust", "squeeze"]
+      }
+    ],
+
+    "社交媒体与论坛": [
+      {
+        "id": "reddit-investing",
+        "name": "Reddit r/investing + r/stocks",
+        "url": "https://www.reddit.com/r/investing/",
+        "sector": "全行业",
+        "priority": 3,
+        "why": "英文散户讨论，偶尔有产业链从业者分享一手信息",
+        "language": "en",
+        "monitor": "reddit_api",
+        "keywords": ["DD", "due diligence", "industry", "shortage", "supply chain"]
+      },
+      {
+        "id": "reddit-wsb",
+        "name": "Reddit r/wallstreetbets",
+        "url": "https://www.reddit.com/r/wallstreetbets/",
+        "sector": "全行业",
+        "priority": 2,
+        "why": "情绪指标——当某个主题在WSB刷屏时，信息差窗口即将关闭",
+        "language": "en",
+        "monitor": "reddit_api",
+        "keywords": ["DD", "YOLO", "industry", "shortage"]
+      },
+      {
+        "id": "twitter-lists",
+        "name": "Twitter/X 行业专家List",
+        "url": "https://x.com/",
+        "sector": "全行业",
+        "priority": 4,
+        "why": "供应链从业者、买方分析师的实时分享，信息最新但需要人工筛选",
+        "language": "en",
+        "monitor": "manual_list",
+        "note": "建议手动创建以下List: ①半导体供应链专家 ②医疗/生物科技分析师 ③大宗商品交易员 ④新能源产业链 ⑤物流/供应链从业者"
+      }
+    ],
+
+    "硬数据监控": [
+      {
+        "id": "us-census-trade",
+        "name": "US Census Foreign Trade",
+        "url": "https://www.census.gov/foreign-trade/",
+        "sector": "全行业(进出口数据)",
+        "priority": 4,
+        "why": "美国进口数据——发现哪个品类进口激增，说明美国需求爆发",
+        "language": "en",
+        "monitor": "monthly_review",
+        "keywords": ["import surge", "trade data"]
+      },
+      {
+        "id": "fda-approvals",
+        "name": "FDA Approvals & Clearances",
+        "url": "https://www.fda.gov/medical-devices/device-approvals-denials-and-clearances",
+        "sector": "医疗器械",
+        "priority": 5,
+        "why": "FDA器械审批 → A股对标器械公司可能跟涨",
+        "language": "en",
+        "monitor": "rss",
+        "keywords": ["clearance", "approval", "breakthrough device", "de novo"]
+      },
+      {
+        "id": "clinical-trials",
+        "name": "ClinicalTrials.gov",
+        "url": "https://clinicaltrials.gov/",
+        "sector": "医药/器械",
+        "priority": 4,
+        "why": "关键临床数据读出时间 → 提前布局A股对标公司",
+        "language": "en",
+        "monitor": "keyword_search",
+        "keywords": ["pivotal", "phase 3", "breakthrough therapy"]
+      },
+      {
+        "id": "freightos",
+        "name": "Freightos Baltic Index (FBX)",
+        "url": "https://fbx.freightos.com/",
+        "sector": "物流(全行业领先指标)",
+        "priority": 5,
+        "why": "全球集装箱运价指数，运价暴涨 = 供应链紧张 = 某些行业供不应求",
+        "language": "en",
+        "monitor": "weekly_review",
+        "keywords": ["rate", "index", "surge", "decline"]
+      },
+      {
+        "id": "google-patents",
+        "name": "Google Patents",
+        "url": "https://patents.google.com/",
+        "sector": "全行业(技术路线)",
+        "priority": 3,
+        "why": "技术路线变化——哪些公司在正确方向布局专利",
+        "language": "en",
+        "monitor": "keyword_search"
+      },
+      {
+        "id": "drewry-wci",
+        "name": "Drewry World Container Index",
+        "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index",
+        "sector": "物流(全行业领先指标)",
+        "priority": 5,
+        "why": "全球集装箱运价基准，和FBX交叉验证",
+        "language": "en",
+        "monitor": "weekly_review"
+      }
+    ],
+
+    "中文信息加速器": [
+      {
+        "id": "wallstreetcn",
+        "name": "华尔街见闻 (海外快讯)",
+        "url": "https://wallstreetcn.com/",
+        "sector": "全行业",
+        "priority": 4,
+        "why": "中文世界最快翻译海外财经新闻的平台，信息滞后英文源约1-3天",
+        "language": "zh",
+        "monitor": "daily_scan",
+        "note": "用于快速确认海外新闻是否已被中文世界注意到。如果某新闻刚出现，信息差窗口仍在。"
+      },
+      {
+        "id": "cls",
+        "name": "财联社 (电报)",
+        "url": "https://www.cls.cn/telegraph",
+        "sector": "全行业",
+        "priority": 3,
+        "why": "A股实时电报，用于确认某个海外主题是否已经开始在A股发酵",
+        "language": "zh",
+        "monitor": "daily_scan",
+        "note": "如果财联社开始密集发布某主题电报，说明信息差窗口接近关闭。"
+      }
+    ]
+  },
+
+  "signal_keywords_priority": {
+    "_说明": "扫描标题/摘要时，命中以下关键词按优先级排序。P1最紧急。",
+    "P1_紧急": [
+      "shortage", "supply crunch", "force majeure", "plant shutdown",
+      "FDA approval", "breakthrough device designation",
+      "export ban", "sanction", "tariff imposed"
+    ],
+    "P2_重要": [
+      "demand surge", "record orders", "backlog growing",
+      "capacity expansion", "new plant", "production ramp",
+      "price hike", "surcharge", "supply tight"
+    ],
+    "P3_关注": [
+      "partnership", "contract win", "market entry",
+      "clinical trial results", "phase 3 data",
+      "new product launch", "regulatory change"
+    ]
+  },
+
+  "sector_mapping": {
+    "_说明": "海外信号行业 → A股对应赛道。用于快速定位信号对应的A股标的。",
+    "semiconductor/chip": ["半导体", "AI算力"],
+    "renewable energy/solar/wind": ["新能源", "海上风电"],
+    "medical device/healthcare": ["医疗器械", "创新药出海"],
+    "telecom/5G/6G": ["6G/通信"],
+    "robotics/automation": ["机器人"],
+    "consumer/brand/retail": ["新消费"],
+    "biotech/gene therapy": ["基因治疗"],
+    "aerospace/space": ["商业航天"],
+    "chemical/material": ["化工(新增赛道)"],
+    "logistics/shipping": ["物流(全行业领先指标)"]
+  },
+
+  "daily_scan_workflow": [
+    "1. 运行 discovery.py scan → 自动拉取RSS标题并匹配关键词",
+    "2. 对命中标题快速判断：是否值得深读？是→打开原文；否→跳过",
+    "3. 对重要信号做映射：①哪个A股赛道？②我的观察池有标的吗？",
+    "4. 将信号录入系统：python3 tracker.py update",
+    "5. 设置3天后提醒自己复查：这个信号为什么没有被市场注意到？"
+  ]
+}

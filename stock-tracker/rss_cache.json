@@ -1,0 +1,473 @@
+{
+  "semiconductor-today": {
+    "date": "2026-06-11",
+    "hits": [
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Finding Success in Industry as a Chip Designer",
+        "link": "https://spectrum.ieee.org/chip-design-academic-vs-industry",
+        "summary": "I have been an application-specific IC (ASIC) designer for almost three decades. Over that time, I’ve moved through the full academic trajectory, from graduate student to full professor; later, I transitioned to industry after an unsuccessful stint at entrepreneurship. When I made the switch to the ",
+        "published": "Thu, 28 May 2026 13:00:01 +0000",
+        "matched_keywords": [
+          "fab",
+          "wafer",
+          "lithography",
+          "yield",
+          "supply"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Junctionless Transistors Show a New Path to 3D Chips",
+        "link": "https://spectrum.ieee.org/3d-chips",
+        "summary": "Chipmakers are struggling to shrink the amount of area a transistor takes up, so researchers are trying to build layers of devices on top of each other. However, many experimental 3D chips rely on exotic materials and perform poorly compared with regular silicon devices. But researchers at the Unive",
+        "published": "Wed, 27 May 2026 15:00:02 +0000",
+        "matched_keywords": [
+          "fab",
+          "wafer",
+          "yield"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Pavona Launches Open-Hardware Ecosystem for Secure Chips",
+        "link": "https://spectrum.ieee.org/pavona-open-source-hardware",
+        "summary": "Open-source software is ubiquitous: Linux is the dominant operating system on servers and supercomputers worldwide; Wordpress powers over 40 percent of all websites, among other major projects. Open-source hardware has existed since the late 1990s, but it hasn’t seen nearly the same level of interes",
+        "published": "Mon, 25 May 2026 14:00:01 +0000",
+        "matched_keywords": [
+          "fab"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Bolt Challenges Nvidia With a Focus on Cutting-Edge Graphics",
+        "link": "https://spectrum.ieee.org/bolt-graphics-zeus-gpu",
+        "summary": "Darwesh Singh thinks Nvidia has a weakness.The last decade of Nvidia’s history was among the most consequential stories in technology ever. The company’s stock price has increased over 200-fold since 2016, and deployed Nvidia AI compute capacity has surged to 225 times greater than the first quarter",
+        "published": "Thu, 21 May 2026 13:00:02 +0000",
+        "matched_keywords": [
+          "fab",
+          "capacity",
+          "supply"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "SEM-Guided Low-kV FIB Finishing for Leading-Edge Semiconductor Failure Analysis",
+        "link": "https://events.bizzabo.com/868497/home",
+        "summary": "Discover how the ZEISS Crossbeam 750 FIBSEM sets a new benchmark for precise TEM lamella prep, tomography, and advanced nanofabrication. This delivers better resolution, better SNR, larger usable FOV, and shorter acquisition times. Learn how uninterrupted FIB milling will reduce damage and rework, a",
+        "published": "Thu, 21 May 2026 10:00:02 +0000",
+        "matched_keywords": [
+          "fab",
+          "yield"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "The Next 15 Years of Moore’s Law, According to Imec",
+        "link": "https://spectrum.ieee.org/semiconductor-technology-roadmap",
+        "summary": "Want to know what the next 10 years of Moore’s Law is going to look like? Maybe the next 15? The Belgium-based nanotech research institution Imec revealed its updated roadmap this week at its annual technology forum, ITF, and it points to a challenging road ahead for chip manufacturers.The next evol",
+        "published": "Tue, 19 May 2026 12:51:55 +0000",
+        "matched_keywords": [
+          "wafer",
+          "lithography"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Accelerating Chipmaking Innovation for the Energy-Efficient AI Era",
+        "link": "https://spectrum.ieee.org/applied-materials-epic-center",
+        "summary": "This sponsored article is brought to you by Applied Materials.At pivotal moments in history, progress has required more than individual brilliance. The most consequential breakthroughs — such as those achieved under the Human Genome Project — required a new operating paradigm: Concentrate the world’",
+        "published": "Thu, 14 May 2026 10:00:01 +0000",
+        "matched_keywords": [
+          "fab",
+          "capacity",
+          "wafer",
+          "lithography"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Neutralizing the Gigascale Problem: How to Solve the Physical Power Paradox of Extreme AI Training Loads",
+        "link": "https://spectrum.ieee.org/gigascale-ai-datacenter-power",
+        "summary": "This sponsored article is brought to you by Ampace.As AI workloads grow to gigascale levels, the global data center industry has hit a hidden physical wall. The real bottleneck is no longer just the thermal limit of the chip or the capacity of the cooling system — it is the dynamic resilience of the",
+        "published": "Tue, 12 May 2026 17:15:15 +0000",
+        "matched_keywords": [
+          "capacity"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Chip Fab-in-a-Box Could Democratize Semiconductors",
+        "link": "https://spectrum.ieee.org/inchfab",
+        "summary": "When Mitchell Hsing was a grad student at MIT, he and his classmates were doing cutting-edge things using what was essentially chip-industry cast-off equipment. Just imagine what could get done if everyone had their own small fabs to spin up prototypes or manufacture small batches of chips, he thoug",
+        "published": "Wed, 06 May 2026 14:00:01 +0000",
+        "matched_keywords": [
+          "fab",
+          "wafer",
+          "lithography",
+          "supply"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Ten Technology Enablers Shaping the Future of 6G Wireless",
+        "link": "https://content.knowledgehub.wiley.com/ten-key-enablers-for-6g-wireless-communications/",
+        "summary": "A guide to ten technological components — from THz communications and AI/ML to reconfigurable intelligent surfaces — poised to define 6G wireless networks.What Attendees will LearnWhich frequencies 6G will use — Understand why THz bands (above 100 GHz) and the7–24 GHz range are under consideration, ",
+        "published": "Wed, 06 May 2026 10:00:02 +0000",
+        "matched_keywords": [
+          "capacity"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Chips Sense Free Radicals With Speed",
+        "link": "https://spectrum.ieee.org/epr-spectroscopy-free-radicals-chip",
+        "summary": "When things go bad—be it beer, batteries, or blood—they generate a certain class of molecules called free radicals. Scientists use a technique called electron paramagnetic resonance (EPR) spectroscopy to pick up the concentration and identities of free radicals, but today’s equipment relies on huge,",
+        "published": "Thu, 30 Apr 2026 15:00:01 +0000",
+        "matched_keywords": [
+          "capacity"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Chip Can Project Video the Size of a Grain of Sand",
+        "link": "https://spectrum.ieee.org/mems-photonics",
+        "summary": "By many estimates, quantum computers will need millions of qubits to realize their potential applications in cybersecurity, drug development, and other industries. The problem is, anyone who has wanted to simultaneously control millions of a certain kind of qubit has run into the problem of trying t",
+        "published": "Thu, 09 Apr 2026 13:00:01 +0000",
+        "matched_keywords": [
+          "fab"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Wi-Fi That Can Withstand a Nuclear Reactor",
+        "link": "https://spectrum.ieee.org/robotics-in-nuclear-industry",
+        "summary": "Researchers have made a Wi-Fi receiver that’s tough enough to work inside a nuclear reactor. They hope the receiver might be part of a wireless communications system for robotics used to decommission reactors.Yasuto Narukiyo, a graduate student at the Institute of Science Tokyo, presented the wirele",
+        "published": "Thu, 02 Apr 2026 14:00:02 +0000",
+        "matched_keywords": [
+          "capacity"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Why Thermal Metrology Must Evolve for Next-Generation Semiconductors",
+        "link": "https://content.knowledgehub.wiley.com/heat-beneath-the-surface-thermal-metrology-for-advanced-semiconductor-materials-and-architectures/",
+        "summary": "An in-depth examination of how rising power density, 3D integration, and novel materials are outpacing legacy thermal measurement — and what advanced metrology must deliver.What Attendees will LearnWhy heat is now the dominant constraint on semiconductor scaling — Explore how heterogeneous integrati",
+        "published": "Mon, 23 Mar 2026 10:00:04 +0000",
+        "matched_keywords": [
+          "lithography"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Laser Chip Brings Multiplexing to AI Data Centers",
+        "link": "https://spectrum.ieee.org/ai-data-centers-dwdm-optics",
+        "summary": "As the bandwidth and power demands of AI data centers necessitate a transition from electrical to optical scaleup networking, one component has been conspicuously absent from the co-packaged optics arsenal: the laser itself. That’s no longer the case. Last month, Tower Semiconductor and Scintil Phot",
+        "published": "Mon, 16 Mar 2026 14:18:58 +0000",
+        "matched_keywords": [
+          "capacity",
+          "wafer",
+          "lithography",
+          "supply"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Intel Demos Chip to Compute With Encrypted Data",
+        "link": "https://spectrum.ieee.org/fhe-intel",
+        "summary": "SummaryFully homomorphic encryption (FHE) allows computing on encrypted data without decryption, but it’s currently slow on standard CPUs and GPUs.Intel’s Heracles chip accelerates FHE tasks up to 5,000 times as fast as top Intel server CPUs.Heracles uses a 3-nanometer FinFET technology and high-ban",
+        "published": "Tue, 10 Mar 2026 13:00:04 +0000",
+        "matched_keywords": [
+          "fab"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "semiconductor-today",
+        "source_name": "Semiconductor Today / IEEE Spectrum",
+        "sector": "半导体",
+        "title": "Low-Cost Computers Nearly Double in Price as RAM Shortage Hits",
+        "link": "https://spectrum.ieee.org/ram-shortage-price-increase",
+        "summary": "It’s no secret that demand for AI hardware has increased demand for computer memory. Industry analyst TrendForce expects the contract price for memory to increase by up to 95 percent in the first quarter of 2026, and that comes after similarly aggressive changes through the second half of 2025. The ",
+        "published": "Mon, 23 Feb 2026 14:00:02 +0000",
+        "matched_keywords": [
+          "capacity"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      }
+    ]
+  },
+  "freightwaves": {
+    "date": "2026-06-11",
+    "hits": [
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "FreightWaves Today: Broad rail traffic gains show growing industrial economy",
+        "link": "https://www.freightwaves.com/news/freightwaves-today-broad-rail-traffic-gains-show-growing-industrial-economy",
+        "summary": "FreightWaves Today discussed the rail markets surge, transportation management systems automation and FMCSA regulatory vetting during Wednesday’s live show.\nThe post FreightWaves Today: Broad rail traffic gains show growing industrial economy appeared first on FreightWaves.",
+        "published": "Wed, 10 Jun 2026 22:17:45 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "For 1st time, U.S. approves controversial LNG production ship",
+        "link": "https://www.freightwaves.com/news/for-1st-time-u-s-approves-controversial-lng-production-ship",
+        "summary": "Regulators for the first time approved a controversial $5 billion project in U.S. waters to produce liquefied natural gas for export.\nThe post For 1st time, U.S. approves controversial LNG production ship appeared first on FreightWaves.",
+        "published": "Wed, 10 Jun 2026 18:13:27 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Commerce finding on van imports may give relief to beleaguered Wabash",
+        "link": "https://www.freightwaves.com/news/commerce-finding-on-van-imports-may-give-relief-to-beleaguered-wabash",
+        "summary": "Wabash National had its debt rating downgraded by S&#038;P but scored a major victory at the Commerce department.\nThe post Commerce finding on van imports may give relief to beleaguered Wabash appeared first on FreightWaves.",
+        "published": "Wed, 10 Jun 2026 18:08:33 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Port Houston’s hurricane playbook: Safety first, cargo moving fast",
+        "link": "https://www.freightwaves.com/news/port-houstons-hurricane-playbook-safety-first-cargo-moving-fast",
+        "summary": "Port Houston officials say continuous training and early preparation allow the port to restore operations after hurricanes.\nThe post Port Houston&#8217;s hurricane playbook: Safety first, cargo moving fast  appeared first on FreightWaves.",
+        "published": "Wed, 10 Jun 2026 16:44:38 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "But…but…shipbuilding! Democrats want China port tax reinstated",
+        "link": "https://www.freightwaves.com/news/butbutshipbuilding-democrats-want-china-port-tax-reinstated",
+        "summary": "Leading Democratic senators have called for the U.S. to reinstate a tax on Chinese ships after Trump and Xi agreed to a mutual postponement through November.\nThe post But…but…shipbuilding! Democrats want China port tax reinstated appeared first on FreightWaves.",
+        "published": "Wed, 10 Jun 2026 15:16:20 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Frontload frenzy? New tariffs fueling early trans-Pacific peak season",
+        "link": "https://www.freightwaves.com/news/frontload-frenzy-new-tariffs-fueling-early-trans-pacific-peak-season",
+        "summary": "A year after analysts predicted a fundamental shift to a late peak season, trans-Pacific rates are surging on frontloading by importers as the U.S. hits dozens of countries with new punitive tariffs.\nThe post Frontload frenzy? New tariffs fueling early trans-Pacific peak season appeared first on Fre",
+        "published": "Tue, 09 Jun 2026 20:32:09 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "White Paper: AI Agent Readiness and Adoption in Freight",
+        "link": "https://www.freightwaves.com/news/white-paper-ai-agent-readiness-and-adoption-in-freight",
+        "summary": "AI is moving beyond experimentation and into everyday freight operations. From automating repetitive tasks to supporting operational decisions, AI agents are creating new opportunities for efficiency across the supply chain. To understand how the industry is responding, FreightWaves and Trimble surv",
+        "published": "Tue, 09 Jun 2026 19:13:31 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Authorities seize millions in counterfeits, drugs across North America",
+        "link": "https://www.freightwaves.com/news/authorities-seize-millions-in-counterfeits-drugs-across-north-america",
+        "summary": "Enforcement agencies intercepted everything from drugs, to counterfeit jewelry, to illegal medicines at ports across North America.\nThe post Authorities seize millions in counterfeits, drugs across North America appeared first on FreightWaves.",
+        "published": "Tue, 09 Jun 2026 14:10:00 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Amazon Relay Is Tackling Freight Fraud, Incentivizing Safety, and Gearing up for Prime Day",
+        "link": "https://www.freightwaves.com/news/amazon-relay-is-tackling-freight-fraud-incentivizing-safety-and-gearing-up-for-prime-day",
+        "summary": "Monika Joshi explains how Amazon Relay’s web portal and mobile app’s fraud protections, safety rewards program, and Prime Day volume create a differentiated value proposition for carriers.\nThe post Amazon Relay Is Tackling Freight Fraud, Incentivizing Safety, and Gearing up for Prime Day appeared fi",
+        "published": "Tue, 09 Jun 2026 13:00:00 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Containers say ‘hold my disruptions’ as ocean rates surge",
+        "link": "https://www.freightwaves.com/news/containers-say-hold-my-disruptions-as-ocean-rates-surge",
+        "summary": "The Gulf crisis has yet to hit global container traffic, liner operators say, as April volumes surged past year-ago levels.\nThe post Containers say &#8216;hold my disruptions&#8217; as ocean rates surge appeared first on FreightWaves.",
+        "published": "Mon, 08 Jun 2026 19:03:24 +0000",
+        "matched_keywords": [
+          "container"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Customs fraud cases surge as whistleblowers target tariff evasion",
+        "link": "https://www.freightwaves.com/news/customs-fraud-cases-surge-as-whistleblowers-target-tariff-evasion",
+        "summary": "A growing number of False Claims Act cases are exposing schemes designed to evade duties on imports.\nThe post Customs fraud cases surge as whistleblowers target tariff evasion  appeared first on FreightWaves.",
+        "published": "Mon, 08 Jun 2026 18:44:35 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Kloster sworn in as STB member",
+        "link": "https://www.freightwaves.com/news/kloster-sworn-in-as-stb-member",
+        "summary": "Richard J. Kloster has been sworn in as the newest member of the Surface Transportation Board.  \nThe post Kloster sworn in as STB member appeared first on FreightWaves.",
+        "published": "Mon, 08 Jun 2026 16:28:00 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "The Supreme Court Just Stripped Brokers of Their Biggest Legal Shield",
+        "link": "https://www.freightwaves.com/news/the-supreme-court-just-stripped-brokers-of-their-biggest-legal-shield",
+        "summary": "The unanimous decision in Montgomery v. Caribe Transport II eliminates federal preemption as a defense in negligent carrier selection lawsuits. J. J. Keller’s Josh Lovan sat down with FreightWaves to discuss how the ripple effects are already reshaping how freight moves.\nThe post The Supreme Court J",
+        "published": "Mon, 08 Jun 2026 15:56:31 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "House endorses 25-year old rules for rail merger review",
+        "link": "https://www.freightwaves.com/news/house-endorses-25-year-old-rules-for-rail-merger-review",
+        "summary": "Opponents of a controversial transcontinental rail merger hailed the House transportation appropriations committee’s backing of a ‘rigorous’ review of the deal by federal regulators.\nThe post House endorses 25-year old rules for rail merger review appeared first on FreightWaves.",
+        "published": "Mon, 08 Jun 2026 10:00:00 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-11"
+      }
+    ]
+  },
+  "food-dive": {
+    "date": "2026-06-11",
+    "hits": []
+  },
+  "pv-magazine": {
+    "date": "2026-06-11",
+    "hits": []
+  }
+}

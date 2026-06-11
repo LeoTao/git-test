@@ -9,7 +9,12 @@
   python3 tracker.py update     录入新信号
   python3 tracker.py earnings   财报季关键词扫描模式
   python3 tracker.py add        添加新标的到观察池
+  python3 tracker.py discover   全球信息差扫描（调用 discovery.py）
   python3 tracker.py help       查看帮助
+
+配套工具：
+  python3 discovery.py scan     全球信息差每日扫描（独立运行）
+  python3 discovery.py source   管理海外信息源
 """
 
 import json
@@ -261,6 +266,7 @@ def cmd_daily():
     print()
     print("💡 运行 'python3 tracker.py review' 查看完整评估")
     print("💡 运行 'python3 tracker.py update' 录入新发现信号")
+    print("💡 运行 'python3 discovery.py scan' 全球信息差扫描（发现一手信号）")
     print("💡 运行 'python3 tracker.py macro' 更新宏观判断")
 
 
@@ -802,6 +808,25 @@ def cmd_macro():
 
 
 # ============================================================
+# 全球信息差扫描（调用 discovery.py）
+# ============================================================
+
+def cmd_discover():
+    """调用 discovery.py 进行全球信息差扫描"""
+    import subprocess
+    discover_script = BASE_DIR / "discovery.py"
+    if not discover_script.exists():
+        print("❌ discovery.py 不存在，请确认文件在 stock-tracker/ 目录下")
+        return
+    print("🌍 启动全球信息差扫描...")
+    print()
+    result = subprocess.run(
+        [sys.executable, str(discover_script), "scan"],
+        cwd=str(BASE_DIR),
+    )
+
+
+# ============================================================
 # 帮助
 # ============================================================
 
@@ -815,17 +840,23 @@ def cmd_help():
   python3 tracker.py review     查看完整评估报告（含可入手判断）
   python3 tracker.py macro      更新宏观环境判断
   python3 tracker.py update     录入新发现的信号
-  python3 tracker.py earnings   财报季关键词扫描
+  python3 tracker.py earnings   财报季关键词扫描（1/4/7/10月）
   python3 tracker.py add        添加新标的
   python3 tracker.py edit       编辑/删除观察池中的标的
+  python3 tracker.py discover   全球信息差扫描（发现一手海外信号）
   python3 tracker.py help       显示此帮助
 
+配套工具（独立运行）：
+  python3 discovery.py scan     全球信息差每日扫描
+  python3 discovery.py source   管理海外信息源
+
 使用流程：
-  1. 每天早上跑 daily，了解今天该关注什么
-  2. 每周跑 macro，更新宏观判断（利率/冲突/市场情绪）
-  3. 发现信号后跑 update 录入
-  4. 每周/每月跑 review 查看"可入手"标的
-  5. 财报季（1/4/7/10月）跑 earnings 扫描财报
+  1. 每天早上跑 discover（或 discovery.py scan），获取海外一手信号
+  2. 跑 daily，了解今天该关注什么
+  3. 每周跑 macro，更新宏观判断（利率/冲突/市场情绪）
+  4. 发现信号后跑 update 录入
+  5. 每周/每月跑 review 查看"可入手"标的
+  6. 财报季（1/4/7/10月）跑 earnings 扫描财报
 
 可入手判断规则（双层过滤）：
   🟢 可入手 = S级 + 得分≥12 + 宏观=favorable
@@ -865,6 +896,7 @@ def main():
         "earnings": cmd_earnings,
         "add": cmd_add,
         "edit": cmd_edit,
+        "discover": cmd_discover,
         "help": cmd_help,
     }
 

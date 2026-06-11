@@ -1,32 +1,6 @@
 {
   "companies": [
     {
-      "id": "1",
-      "name": "中际旭创",
-      "code": "300308",
-      "sector": "AI算力",
-      "tier": "S",
-      "penetration_rate": "15%",
-      "key_trigger": "1.6T光模块量产出货",
-      "notes": "全球光模块龙头，深度绑定英伟达供应链",
-      "signals": [],
-      "last_review": null,
-      "score": 0
-    },
-    {
-      "id": "2",
-      "name": "新易盛",
-      "code": "300502",
-      "sector": "AI算力",
-      "tier": "A",
-      "penetration_rate": "10%",
-      "key_trigger": "800G光模块放量",
-      "notes": "高速光模块老二",
-      "signals": [],
-      "last_review": null,
-      "score": 0
-    },
-    {
       "id": "3",
       "name": "宁德时代",
       "code": "300750",

@@ -1,6 +1,6 @@
 {
   "semiconductor-today": {
-    "date": "2026-06-26",
+    "date": "2026-06-28",
     "hits": [
       {
         "source_id": "semiconductor-today",
@@ -15,7 +15,7 @@
           "yield"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -29,7 +29,7 @@
           "wafer"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -44,7 +44,7 @@
           "supply"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -60,7 +60,7 @@
           "supply"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -77,7 +77,7 @@
           "supply"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -95,7 +95,7 @@
           "supply"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -111,7 +111,7 @@
           "yield"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -125,7 +125,7 @@
           "fab"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -141,7 +141,7 @@
           "supply"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -156,7 +156,7 @@
           "yield"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -171,7 +171,7 @@
           "lithography"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -188,7 +188,7 @@
           "lithography"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -202,7 +202,7 @@
           "capacity"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -219,7 +219,7 @@
           "supply"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -233,7 +233,7 @@
           "capacity"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -247,7 +247,7 @@
           "capacity"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -261,7 +261,7 @@
           "fab"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -275,7 +275,7 @@
           "capacity"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -289,7 +289,7 @@
           "lithography"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "semiconductor-today",
@@ -306,13 +306,113 @@
           "supply"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       }
     ]
   },
   "freightwaves": {
-    "date": "2026-06-26",
+    "date": "2026-06-28",
     "hits": [
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Borderlands Mexico: Port of Brownsville completes $295M ship channel deepening project",
+        "link": "https://www.freightwaves.com/news/borderlands-mexico-port-of-brownsville-completes-295m-ship-channel-deepening-project",
+        "summary": "This week in Borderlands Mexico: Port of Brownsville completes $295M ship channel project; Palmer Holland expands into Mexico; and TexAmericas Center in line for proposed $500M battery-materials project.\nThe post Borderlands Mexico: Port of Brownsville completes $295M ship channel deepening project ",
+        "published": "Sun, 28 Jun 2026 11:00:00 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-28"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Progressive’s Mandatory ELD Switch? Some Small Trucking Fleets May Be Required to Switch ELD Providers.",
+        "link": "https://www.freightwaves.com/news/progressives-mandatory-eld-switch-some-small-trucking-fleets-may-be-required-to-switch-eld-providers",
+        "summary": "For years, commercial trucking insurers have encouraged fleets to participate in telematics programs by offering premium discounts in exchange for access to electronic driving data. Programs that once focused primarily on rewarding safe driving have gradually become an increasingly important part of",
+        "published": "Sat, 27 Jun 2026 22:07:52 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-28"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Freight forwarding manager sentenced for violating U.S. export controls",
+        "link": "https://www.freightwaves.com/news/freight-forwarding-manager-sentenced-for-violating-u-s-export-controls",
+        "summary": "A former regional manager for Delex Air Cargo LLC has been sentenced to 18 months in federal prison after pleading guilty to conspiracy to violate the Export Control Reform Act. According to the U.S. Attorney's Office, the scheme involved shipping controlled industrial oil and gas equipment to Russi",
+        "published": "Sat, 27 Jun 2026 11:30:00 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-28"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Transfix integrates Highway carrier vetting into TMS",
+        "link": "https://www.freightwaves.com/news/transfix-integrates-highway-carrier-vetting-into-tms",
+        "summary": "Transfix has integrated Highway's carrier vetting technology into its transportation management system, allowing freight brokers and third-party logistics providers to verify carrier identity, insurance and operating authority without leaving the platform. The integration reflects a broader industry",
+        "published": "Fri, 26 Jun 2026 18:44:33 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-28"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Port of Long Beach, trucker launch Zero-Emission corridor to Mexico",
+        "link": "https://www.freightwaves.com/news/port-of-long-beach-trucker-launch-zero-emission-corridor-to-mexico",
+        "summary": "The busiest U.S. container port recognizes a local trucking provider for helping establish a “Green Truck Corridor\" between the port and Mexico.\nThe post Port of Long Beach, trucker launch Zero-Emission corridor to Mexico appeared first on FreightWaves.",
+        "published": "Fri, 26 Jun 2026 15:37:00 +0000",
+        "matched_keywords": [
+          "port",
+          "container"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-28"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Trade uncertainty leads South Carolina Ports to temporarily shut down container terminal",
+        "link": "https://www.freightwaves.com/news/trade-uncertainty-leads-south-carolina-ports-to-temporarily-shut-down-container-terminal",
+        "summary": "South Carolina Ports is pausing operations at a key container terminal amid an uncertain outlook for trade and a need to reduce costs.\nThe post Trade uncertainty leads South Carolina Ports to temporarily shut down container terminal appeared first on FreightWaves.",
+        "published": "Fri, 26 Jun 2026 14:28:08 +0000",
+        "matched_keywords": [
+          "port",
+          "container"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-28"
+      },
+      {
+        "source_id": "freightwaves",
+        "source_name": "FreightWaves",
+        "sector": "物流/供应链(全行业领先指标)",
+        "title": "Freight distress report: Warehouse cuts mount, trucking bankruptcies continue",
+        "link": "https://www.freightwaves.com/news/freight-distress-report-warehouse-cuts-mount-trucking-bankruptcies-continue",
+        "summary": "More than 1,200 workers are affected by recent logistics layoffs as several small freight operators file for bankruptcy.\nThe post Freight distress report: Warehouse cuts mount, trucking bankruptcies continue appeared first on FreightWaves.",
+        "published": "Fri, 26 Jun 2026 12:30:00 +0000",
+        "matched_keywords": [
+          "port"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-28"
+      },
       {
         "source_id": "freightwaves",
         "source_name": "FreightWaves",
@@ -325,7 +425,7 @@
           "port"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "freightwaves",
@@ -339,7 +439,7 @@
           "port"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "freightwaves",
@@ -353,7 +453,7 @@
           "port"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "freightwaves",
@@ -368,7 +468,7 @@
           "container"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "freightwaves",
@@ -382,7 +482,7 @@
           "port"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "freightwaves",
@@ -396,7 +496,7 @@
           "port"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "freightwaves",
@@ -410,7 +510,7 @@
           "port"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "freightwaves",
@@ -424,7 +524,7 @@
           "port"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "freightwaves",
@@ -438,7 +538,7 @@
           "port"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "freightwaves",
@@ -452,7 +552,7 @@
           "port"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "freightwaves",
@@ -466,108 +566,51 @@
           "port"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
-      },
-      {
-        "source_id": "freightwaves",
-        "source_name": "FreightWaves",
-        "sector": "物流/供应链(全行业领先指标)",
-        "title": "CSX officially opens $495M Baltimore intermodal rail tunnel project",
-        "link": "https://www.freightwaves.com/news/csx-officially-opens-495-baltimore-intermodal-rail-tunnel-project",
-        "summary": "CSX officially opens a $495 million tunnel project in Baltimore to increase container traffic along the I-95 corridor and at the city’s port.\nThe post CSX officially opens $495M Baltimore intermodal rail tunnel project appeared first on FreightWaves.",
-        "published": "Tue, 23 Jun 2026 13:13:51 +0000",
-        "matched_keywords": [
-          "port",
-          "container"
-        ],
-        "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
-      },
-      {
-        "source_id": "freightwaves",
-        "source_name": "FreightWaves",
-        "sector": "物流/供应链(全行业领先指标)",
-        "title": "Cargo thieves are following the AI boom",
-        "link": "https://www.freightwaves.com/news/cargo-thieves-are-following-the-ai-boom",
-        "summary": "The AI boom is changing more than technology. It is reshaping supply chains, increasing demand for critical components and creating a new class of high-value cargo targets. The question is not whether criminals are paying attention. It is how quickly the transportation industry can adapt.\nThe post C",
-        "published": "Tue, 23 Jun 2026 10:58:35 +0000",
-        "matched_keywords": [
-          "port"
-        ],
-        "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
-      },
-      {
-        "source_id": "freightwaves",
-        "source_name": "FreightWaves",
-        "sector": "物流/供应链(全行业领先指标)",
-        "title": "Executives talk tech, port drayage and capacity on FreightWaves Today",
-        "link": "https://www.freightwaves.com/news/executives-talk-tech-port-drayage-and-capacity-on-freightwaves-today",
-        "summary": "Industry leaders spoke about port drayage, network optimization and API-driven integrations during Monday’s live show of FreightWaves Today.\nThe post Executives talk tech, port drayage and capacity on FreightWaves Today appeared first on FreightWaves.",
-        "published": "Mon, 22 Jun 2026 22:48:50 +0000",
-        "matched_keywords": [
-          "port"
-        ],
-        "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
-      },
-      {
-        "source_id": "freightwaves",
-        "source_name": "FreightWaves",
-        "sector": "物流/供应链(全行业领先指标)",
-        "title": "After $450M project, Port of Virginia goes deep to raise the bar among East Coast container gateways",
-        "link": "https://www.freightwaves.com/news/after-450m-project-port-of-virginia-goes-deep-to-raise-the-bar-among-east-coast-container-gateways",
-        "summary": "In the arms race among East Coast container ports, the Port of Virginia has raised the bar by deepening the harbor. \nThe post After $450M project, Port of Virginia goes deep to raise the bar among East Coast container gateways appeared first on FreightWaves.",
-        "published": "Mon, 22 Jun 2026 20:33:27 +0000",
-        "matched_keywords": [
-          "port",
-          "container"
-        ],
-        "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
-      },
-      {
-        "source_id": "freightwaves",
-        "source_name": "FreightWaves",
-        "sector": "物流/供应链(全行业领先指标)",
-        "title": "Air Hong Kong leases Airbus A330 cargo jet from US provider",
-        "link": "https://www.freightwaves.com/news/air-hong-kong-leases-airbus-a330-cargo-jet-from-us-provider",
-        "summary": "Cathay Pacific subsidiary Air Hong Kong has signed a long-term lease for an additional Airbus A330 freighter aircraft to support DHL Express and other customers in Asia markets.\nThe post Air Hong Kong leases Airbus A330 cargo jet from US provider appeared first on FreightWaves.",
-        "published": "Mon, 22 Jun 2026 16:25:41 +0000",
-        "matched_keywords": [
-          "port"
-        ],
-        "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       }
     ]
   },
   "food-dive": {
-    "date": "2026-06-26",
+    "date": "2026-06-28",
     "hits": []
   },
   "pv-magazine": {
-    "date": "2026-06-26",
+    "date": "2026-06-28",
     "hits": [
       {
         "source_id": "pv-magazine",
         "source_name": "PV Magazine",
         "sector": "新能源/光伏",
-        "title": "Who will be the U.S. solar cell technology leaders in 2030?",
-        "link": "https://www.pv-magazine.com/2026/06/26/who-will-be-the-u-s-solar-cell-technology-leaders-in-2030/",
-        "summary": "As the U.S. solar PV sector scales up domestic cell manufacturing, long-term competitiveness will depend on whether American producers can move beyond turn-key foreign equipment to secure independent technology roadmaps and domestic material supply chains.\nThe post Who will be the U.S. solar cell te",
-        "published": "Fri, 26 Jun 2026 08:00:33 +0000",
+        "title": "Chinese PV Industry Brief: Polysilicon prices continue to edge lower",
+        "link": "https://www.pv-magazine.com/2026/06/26/chinese-pv-industry-brief-polysilicon-prices-continue-to-edge-lower/",
+        "summary": "Polysilicon prices continued to edge lower in China this week, while wafer prices remained unchanged, reflecting ongoing weakness in the upstream solar supply chain.\nThe post Chinese PV Industry Brief: Polysilicon prices continue to edge lower appeared first on pv magazine Global.",
+        "published": "Fri, 26 Jun 2026 11:00:41 +0000",
         "matched_keywords": [
+          "polysilicon",
           "supply chain"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       }
     ]
   },
   "windpower-monthly": {
-    "date": "2026-06-26",
+    "date": "2026-06-28",
     "hits": [
+      {
+        "source_id": "windpower-monthly",
+        "source_name": "Windpower Monthly",
+        "sector": "新能源/风电",
+        "title": "Equinor quits another offshore wind market",
+        "link": "https://www.windpowermonthly.com/article/1962913/equinor-quits-offshore-wind-market",
+        "summary": "Equinor is quitting the Japanese offshore wind power market, shortly after dropping its broader capacity target for renewable energy deployment.",
+        "published": "Fri, 26 Jun 2026 11:17:54 +0100",
+        "matched_keywords": [
+          "offshore wind"
+        ],
+        "priority": "🟢 P3",
+        "scanned_at": "2026-06-28"
+      },
       {
         "source_id": "windpower-monthly",
         "source_name": "Windpower Monthly",
@@ -580,7 +623,7 @@
           "turbine"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -594,7 +637,7 @@
           "contract"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -608,7 +651,7 @@
           "offshore wind"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -622,7 +665,7 @@
           "offshore wind"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -636,7 +679,7 @@
           "offshore wind"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -650,7 +693,7 @@
           "offshore wind"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -664,7 +707,7 @@
           "offshore wind"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -678,7 +721,7 @@
           "turbine"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -692,7 +735,7 @@
           "turbine"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -706,7 +749,7 @@
           "offshore wind"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -720,7 +763,7 @@
           "turbine"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -734,7 +777,7 @@
           "offshore wind"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -748,7 +791,7 @@
           "offshore wind"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -762,7 +805,7 @@
           "offshore wind"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       },
       {
         "source_id": "windpower-monthly",
@@ -776,21 +819,7 @@
           "offshore wind"
         ],
         "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
-      },
-      {
-        "source_id": "windpower-monthly",
-        "source_name": "Windpower Monthly",
-        "sector": "新能源/风电",
-        "title": "Invenergy accepts Trump deal to return US offshore wind leases",
-        "link": "https://www.windpowermonthly.com/article/1962036/invenergy-accepts-trump-deal-return-us-offshore-wind-leases",
-        "summary": "Invenergy has become the fourth developer to voluntarily relinquish US offshore wind leases in return for a refund from the Trump administration.",
-        "published": "Thu, 18 Jun 2026 10:00:53 +0100",
-        "matched_keywords": [
-          "offshore wind"
-        ],
-        "priority": "🟢 P3",
-        "scanned_at": "2026-06-26"
+        "scanned_at": "2026-06-28"
       }
     ]
   }

@@ -40,42 +40,6 @@
         ]
       },
       {
-        "id": "pv-magazine",
-        "name": "PV Magazine",
-        "url": "https://www.pv-magazine.com/",
-        "feed": "https://www.pv-magazine.com/feed/",
-        "sector": "新能源/光伏",
-        "priority": 5,
-        "why": "全球光伏行业最权威媒体，产能、价格、政策一手信息",
-        "language": "en",
-        "monitor": "rss",
-        "keywords": [
-          "polysilicon",
-          "capacity expansion",
-          "module price",
-          "solar tariff",
-          "supply chain"
-        ]
-      },
-      {
-        "id": "windpower-monthly",
-        "name": "Windpower Monthly",
-        "url": "https://www.windpowermonthly.com/",
-        "feed": "https://www.windpowermonthly.com/rss",
-        "sector": "新能源/风电",
-        "priority": 4,
-        "why": "全球风电行业权威，尤其海上风电项目进度",
-        "language": "en",
-        "monitor": "rss",
-        "keywords": [
-          "offshore wind",
-          "turbine",
-          "supply chain",
-          "contract",
-          "installation"
-        ]
-      },
-      {
         "id": "fierce-medical",
         "name": "FierceMedical / MedTech Dive",
         "url": "https://www.fiercebiotech.com/medical-devices",
@@ -112,25 +76,6 @@
           "yield",
           "supply",
           "lead time"
-        ]
-      },
-      {
-        "id": "light-reading",
-        "name": "Light Reading / FierceWireless",
-        "url": "https://www.lightreading.com/",
-        "feed": "https://www.lightreading.com/rss",
-        "sector": "通信/6G",
-        "priority": 4,
-        "why": "通信标准、5G/6G部署、设备商动态",
-        "language": "en",
-        "monitor": "rss",
-        "keywords": [
-          "6G",
-          "5G",
-          "open ran",
-          "spectrum",
-          "deployment",
-          "contract"
         ]
       },
       {
@@ -466,16 +411,9 @@
       "半导体",
       "AI算力"
     ],
-    "renewable energy/solar/wind": [
-      "新能源",
-      "海上风电"
-    ],
     "medical device/healthcare": [
       "医疗器械",
       "创新药出海"
-    ],
-    "telecom/5G/6G": [
-      "6G/通信"
     ],
     "robotics/automation": [
       "机器人"

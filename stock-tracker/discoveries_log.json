@@ -1,5 +1,33 @@
 [
   {
+    "source_id": "manual",
+    "source_name": "财报分析",
+    "sector": "机器人/自动化",
+    "title": "雷赛智能(002979)：运动控制老兵的机器人第二曲线，无框电机20倍增长，全栈自研灵巧手",
+    "link": "",
+    "summary": "2025年报分析：营收18.74亿(+18%)、净利2.25亿(+12%)、扣股后净利2.72亿(+32%)。核心亮点：①机器人无框力矩电机交付>12万台(20x增长)、进入80%主流人形机器人客户；②全栈自研(电机+编码器+驱动+灵巧手)成本结构优势；③经营现金流/净利=1.22利润质量极高；④研发全部费用化(12.63%费用率)。核心风险：机器人收入未单独披露(估1-2亿/占5-10%)、伺服毛利率仅28%、整体增速18%未触及40%门槛。2026年关注：200万台产能投产+机器人能否单独成表。",
+    "published": "2026-07-08",
+    "matched_keywords": [
+      "爆发式增长", "新产品放量", "全栈自研", "现金流质量"
+    ],
+    "priority": "🟡 P2",
+    "scanned_at": "2026-07-08"
+  },
+  {
+    "source_id": "manual",
+    "source_name": "财报分析",
+    "sector": "机器人/自动化",
+    "title": "昊志机电(300503)：电主轴龙头机器人第二曲线爆发，Q1收入+73%利润+484%",
+    "link": "",
+    "summary": "2026Q1营收4.96亿(+73%)、净利0.91亿(+484%)、毛利率42.15%(连续6季攀升)。谐波减速器/关节模组/编码器已进入ABB供应链，机器人功能部件(转台/减速器/直线电机)收入2.2亿占比14%。核心亮点：产品结构升级兑现+机器人放量。核心风险：Q1经营现金流仅0.19亿(现金流/净利比0.21)、PE 174x、负债率57.6%",
+    "published": "2026-07-06",
+    "matched_keywords": [
+      "超预期", "毛利率提升", "产能爬坡", "新产品放量"
+    ],
+    "priority": "🔴 P1",
+    "scanned_at": "2026-07-06"
+  },
+  {
     "source_id": "freightwaves",
     "source_name": "FreightWaves",
     "sector": "物流/供应链(全行业领先指标)",
@@ -993,5 +1021,134 @@
     ],
     "priority": "🟢 P3",
     "scanned_at": "2026-06-26"
+  },
+  {
+    "source_id": "freightwaves",
+    "source_name": "FreightWaves",
+    "sector": "物流/供应链(全行业领先指标)",
+    "title": "Borderlands Mexico: Port of Brownsville completes $295M ship channel deepening project",
+    "link": "https://www.freightwaves.com/news/borderlands-mexico-port-of-brownsville-completes-295m-ship-channel-deepening-project",
+    "summary": "This week in Borderlands Mexico: Port of Brownsville completes $295M ship channel project; Palmer Holland expands into Mexico; and TexAmericas Center in line for proposed $500M battery-materials project.\nThe post Borderlands Mexico: Port of Brownsville completes $295M ship channel deepening project ",
+    "published": "Sun, 28 Jun 2026 11:00:00 +0000",
+    "matched_keywords": [
+      "port"
+    ],
+    "priority": "🟢 P3",
+    "scanned_at": "2026-06-28"
+  },
+  {
+    "source_id": "freightwaves",
+    "source_name": "FreightWaves",
+    "sector": "物流/供应链(全行业领先指标)",
+    "title": "Progressive’s Mandatory ELD Switch? Some Small Trucking Fleets May Be Required to Switch ELD Providers.",
+    "link": "https://www.freightwaves.com/news/progressives-mandatory-eld-switch-some-small-trucking-fleets-may-be-required-to-switch-eld-providers",
+    "summary": "For years, commercial trucking insurers have encouraged fleets to participate in telematics programs by offering premium discounts in exchange for access to electronic driving data. Programs that once focused primarily on rewarding safe driving have gradually become an increasingly important part of",
+    "published": "Sat, 27 Jun 2026 22:07:52 +0000",
+    "matched_keywords": [
+      "port"
+    ],
+    "priority": "🟢 P3",
+    "scanned_at": "2026-06-28"
+  },
+  {
+    "source_id": "freightwaves",
+    "source_name": "FreightWaves",
+    "sector": "物流/供应链(全行业领先指标)",
+    "title": "Freight forwarding manager sentenced for violating U.S. export controls",
+    "link": "https://www.freightwaves.com/news/freight-forwarding-manager-sentenced-for-violating-u-s-export-controls",
+    "summary": "A former regional manager for Delex Air Cargo LLC has been sentenced to 18 months in federal prison after pleading guilty to conspiracy to violate the Export Control Reform Act. According to the U.S. Attorney's Office, the scheme involved shipping controlled industrial oil and gas equipment to Russi",
+    "published": "Sat, 27 Jun 2026 11:30:00 +0000",
+    "matched_keywords": [
+      "port"
+    ],
+    "priority": "🟢 P3",
+    "scanned_at": "2026-06-28"
+  },
+  {
+    "source_id": "freightwaves",
+    "source_name": "FreightWaves",
+    "sector": "物流/供应链(全行业领先指标)",
+    "title": "Transfix integrates Highway carrier vetting into TMS",
+    "link": "https://www.freightwaves.com/news/transfix-integrates-highway-carrier-vetting-into-tms",
+    "summary": "Transfix has integrated Highway's carrier vetting technology into its transportation management system, allowing freight brokers and third-party logistics providers to verify carrier identity, insurance and operating authority without leaving the platform. The integration reflects a broader industry",
+    "published": "Fri, 26 Jun 2026 18:44:33 +0000",
+    "matched_keywords": [
+      "port"
+    ],
+    "priority": "🟢 P3",
+    "scanned_at": "2026-06-28"
+  },
+  {
+    "source_id": "freightwaves",
+    "source_name": "FreightWaves",
+    "sector": "物流/供应链(全行业领先指标)",
+    "title": "Port of Long Beach, trucker launch Zero-Emission corridor to Mexico",
+    "link": "https://www.freightwaves.com/news/port-of-long-beach-trucker-launch-zero-emission-corridor-to-mexico",
+    "summary": "The busiest U.S. container port recognizes a local trucking provider for helping establish a “Green Truck Corridor\" between the port and Mexico.\nThe post Port of Long Beach, trucker launch Zero-Emission corridor to Mexico appeared first on FreightWaves.",
+    "published": "Fri, 26 Jun 2026 15:37:00 +0000",
+    "matched_keywords": [
+      "port",
+      "container"
+    ],
+    "priority": "🟢 P3",
+    "scanned_at": "2026-06-28"
+  },
+  {
+    "source_id": "freightwaves",
+    "source_name": "FreightWaves",
+    "sector": "物流/供应链(全行业领先指标)",
+    "title": "Trade uncertainty leads South Carolina Ports to temporarily shut down container terminal",
+    "link": "https://www.freightwaves.com/news/trade-uncertainty-leads-south-carolina-ports-to-temporarily-shut-down-container-terminal",
+    "summary": "South Carolina Ports is pausing operations at a key container terminal amid an uncertain outlook for trade and a need to reduce costs.\nThe post Trade uncertainty leads South Carolina Ports to temporarily shut down container terminal appeared first on FreightWaves.",
+    "published": "Fri, 26 Jun 2026 14:28:08 +0000",
+    "matched_keywords": [
+      "port",
+      "container"
+    ],
+    "priority": "🟢 P3",
+    "scanned_at": "2026-06-28"
+  },
+  {
+    "source_id": "freightwaves",
+    "source_name": "FreightWaves",
+    "sector": "物流/供应链(全行业领先指标)",
+    "title": "Freight distress report: Warehouse cuts mount, trucking bankruptcies continue",
+    "link": "https://www.freightwaves.com/news/freight-distress-report-warehouse-cuts-mount-trucking-bankruptcies-continue",
+    "summary": "More than 1,200 workers are affected by recent logistics layoffs as several small freight operators file for bankruptcy.\nThe post Freight distress report: Warehouse cuts mount, trucking bankruptcies continue appeared first on FreightWaves.",
+    "published": "Fri, 26 Jun 2026 12:30:00 +0000",
+    "matched_keywords": [
+      "port"
+    ],
+    "priority": "🟢 P3",
+    "scanned_at": "2026-06-28"
+  },
+  {
+    "source_id": "pv-magazine",
+    "source_name": "PV Magazine",
+    "sector": "新能源/光伏",
+    "title": "Chinese PV Industry Brief: Polysilicon prices continue to edge lower",
+    "link": "https://www.pv-magazine.com/2026/06/26/chinese-pv-industry-brief-polysilicon-prices-continue-to-edge-lower/",
+    "summary": "Polysilicon prices continued to edge lower in China this week, while wafer prices remained unchanged, reflecting ongoing weakness in the upstream solar supply chain.\nThe post Chinese PV Industry Brief: Polysilicon prices continue to edge lower appeared first on pv magazine Global.",
+    "published": "Fri, 26 Jun 2026 11:00:41 +0000",
+    "matched_keywords": [
+      "polysilicon",
+      "supply chain"
+    ],
+    "priority": "🟢 P3",
+    "scanned_at": "2026-06-28"
+  },
+  {
+    "source_id": "windpower-monthly",
+    "source_name": "Windpower Monthly",
+    "sector": "新能源/风电",
+    "title": "Equinor quits another offshore wind market",
+    "link": "https://www.windpowermonthly.com/article/1962913/equinor-quits-offshore-wind-market",
+    "summary": "Equinor is quitting the Japanese offshore wind power market, shortly after dropping its broader capacity target for renewable energy deployment.",
+    "published": "Fri, 26 Jun 2026 11:17:54 +0100",
+    "matched_keywords": [
+      "offshore wind"
+    ],
+    "priority": "🟢 P3",
+    "scanned_at": "2026-06-28"
   }
 ]

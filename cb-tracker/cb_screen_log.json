@@ -220,5 +220,116 @@
       "规模过小": 1,
       "溢价过高": 2
     }
+  },
+  {
+    "date": "2026-09-22",
+    "source": "东方财富",
+    "temperature": {
+      "count": 310,
+      "median_price": 132.333,
+      "median_double_low": 200.2,
+      "lows": {
+        "<=100": 2,
+        "<=105": 3,
+        "<=110": 11
+      },
+      "advice": "🔥 盛夏：低价债稀缺、强赎潮临近，只卖不买、逐步减仓"
+    },
+    "candidates": [
+      {
+        "code": "127061",
+        "name": "美锦转债",
+        "price": 109.35,
+        "premium": 5.42,
+        "double_low": 114.77,
+        "ytm": 2.4,
+        "rating": "A",
+        "remain_years": 1.58,
+        "scale_yi": 35.9,
+        "stock_name": "美锦能源"
+      }
+    ],
+    "filter_stats": {
+      "价格过高": 250,
+      "评级过低": 25,
+      "临近到期": 26,
+      "正股ST": 4,
+      "规模过小": 1,
+      "溢价过高": 3
+    }
+  },
+  {
+    "date": "2026-09-23",
+    "source": "东方财富",
+    "temperature": {
+      "count": 311,
+      "median_price": 130.81,
+      "median_double_low": 195.92,
+      "lows": {
+        "<=100": 2,
+        "<=105": 3,
+        "<=110": 12
+      },
+      "advice": "🔥 盛夏：低价债稀缺、强赎潮临近，只卖不买、逐步减仓"
+    },
+    "candidates": [
+      {
+        "code": "127061",
+        "name": "美锦转债",
+        "price": 108.207,
+        "premium": 5.76,
+        "double_low": 113.97,
+        "ytm": 3.12,
+        "rating": "A",
+        "remain_years": 1.57,
+        "scale_yi": 35.9,
+        "stock_name": "美锦能源"
+      }
+    ],
+    "filter_stats": {
+      "价格过高": 249,
+      "评级过低": 25,
+      "临近到期": 28,
+      "正股ST": 4,
+      "规模过小": 1,
+      "溢价过高": 3
+    }
+  },
+  {
+    "date": "2026-09-24",
+    "source": "东方财富",
+    "temperature": {
+      "count": 311,
+      "median_price": 129.9,
+      "median_double_low": 195.12,
+      "lows": {
+        "<=100": 2,
+        "<=105": 3,
+        "<=110": 14
+      },
+      "advice": "🔥 盛夏：低价债稀缺、强赎潮临近，只卖不买、逐步减仓"
+    },
+    "candidates": [
+      {
+        "code": "127061",
+        "name": "美锦转债",
+        "price": 108.185,
+        "premium": 6.35,
+        "double_low": 114.53,
+        "ytm": 3.13,
+        "rating": "A",
+        "remain_years": 1.57,
+        "scale_yi": 35.9,
+        "stock_name": "美锦能源"
+      }
+    ],
+    "filter_stats": {
+      "价格过高": 248,
+      "评级过低": 25,
+      "临近到期": 28,
+      "正股ST": 4,
+      "规模过小": 1,
+      "溢价过高": 4
+    }
   }
 ]

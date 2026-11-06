@@ -7,10 +7,13 @@
 ```bash
 cd stock-tracker
 
-# 每天早上第一步 —— 全球信息差扫描（发现一手海外信号）
+# 每天早上第一步 —— 十倍股起点筛选（自动识别最新财报期 + 今日市值）
+python3 tenbagger.py
+
+# 每天早上第二步 —— 全球信息差扫描（发现一手海外信号）
 python3 discovery.py scan
 
-# 每天早上第二步 —— 5 分钟了解今天该关注什么
+# 每天早上第三步 —— 5 分钟了解今天该关注什么
 python3 tracker.py daily
 
 # 发现新信号时 —— 录入到系统中
@@ -27,6 +30,7 @@ python3 tracker.py earnings
 
 | 命令 | 用途 | 建议频率 |
 |------|------|---------|
+| `tenbagger.py` | 🌟 十倍股起点每日筛选（小市值+次新+加速+扣非干净） | **每天** |
 | `discovery.py scan` | 🌍 全球信息差扫描（RSS+关键词） | 每天 |
 | `daily` | 每日检查清单 | 每天 |
 | `update` | 录入新信号 | 发现信号时 |
@@ -48,6 +52,20 @@ python3 screen_h1.py                                  # 2026中报，双40%
 python3 screen_h1.py --rev 30 --profit 50             # 自定义阈值
 python3 screen_h1.py --date 20260630 --keep-bj        # 保留北交所
 
+# 十倍股起点口径：小市值 + 次新 + 连续多年高增长
+python3 screen_h1.py --date 20260930 --rev 30 --profit 20 --rev-years 2 \
+    --mcap-min 30 --mcap-max 100 --min-listing 1 --new-listing 3
+#   --mcap-min/--mcap-max  总市值区间（亿，腾讯行情实时取）
+#   --min-listing/--new-listing  上市年限区间（年）
+#   --rev-years N  要求连续 N 年（含当期）营收增速都 ≥ --rev
+
+# 加速型曲线口径：营收增速逐年抬升（捞"乔锋类"曲线）
+python3 screen_h1.py --date 20260930 --rev 20 --profit 20 --accelerating \
+    --accel-gain 20 --mcap-min 30 --mcap-max 80 --min-listing 1 --new-listing 5
+#   --accelerating  增速逐年非递减 + 首末差 >= --accel-gain
+#   --accel-years   用几个历史年报点（默认3，含当期共4点，如 2023→2024→2025→当期）
+#   输出表带"增速曲线(旧→新)"列，直接肉眼看曲线形态
+
 # 2. 关键词扫描（巨潮资讯全文检索，7 个关键表述 → 信号分）
 #    → 自动与双40%池取交集
 python3 keyword_scan.py
@@ -61,7 +79,7 @@ python3 kf_check.py out/keyword_cross_2026-07-01_2026-09-20.csv
 
 | 脚本 | 数据源 | 核心能力 |
 |------|--------|---------|
-| `screen_h1.py` | 东财业绩报表 | 全市场一次拉完；行业聚类看板块效应；标记"小基数"（利润增速>1000%）与现金流告警（现金比<0.3） |
+| `screen_h1.py` | 东财业绩报表 + 腾讯行情 | 全市场一次拉完；行业聚类看板块效应；标记"小基数"（利润增速>1000%）与现金流告警（现金比<0.3）；支持市值区间 / 上市年限 / 连续 N 年增速过滤 |
 | `keyword_scan.py` | 巨潮全文检索 | 15 个关键词跨全部公告检索；按公告类型分级（中报正文 > 业绩预告 > 调研纪要） |
 | `kf_check.py` | 同花顺财务摘要 | 扣非增速 + 非经常性损益占比；判定 ✅真主营增长 / ⚠️非经常占比高 / ❌扣非大降 |
 
@@ -86,6 +104,7 @@ python3 kf_check.py out/keyword_cross_2026-07-01_2026-09-20.csv
 
 ```
 stock-tracker/
+├── tenbagger.py         十倍股起点每日筛选 🌟（小市值+次新+加速+扣非干净）
 ├── tracker.py           主程序
 ├── discovery.py         全球信息差扫描工具 🆕
 ├── screen_h1.py         财报季双40%全市场筛选 🆕
@@ -95,7 +114,7 @@ stock-tracker/
 ├── discoveries_log.json 信号发现历史 🆕
 ├── watchlist.json       观察池（标的、信号、记录）
 ├── signals_log.json     信号录入历史
-├── out/                 筛选产出 CSV 🆕
+├── out/                 筛选产出 CSV（含 tenbagger_YYYYMMDD.csv 每日池）🆕
 ├── .cache/              网络请求缓存 🆕
 └── README.md            本文件
 ```
